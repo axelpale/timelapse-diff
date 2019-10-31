@@ -1,0 +1,31 @@
+{
+  "name": "timelapse-diff",
+  "version": "0.0.1",
+  "description": "Find bad frames in timelapse photos",
+  "keywords": [
+    "timelapse"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard 'src/**/*.js' && echo OK",
+    "test": "npm run lint",
+    "gv": "genversion src/version.js",
+    "release": "npm run lint && npm run gv && npm publish"
+  },
+  "author": {
+    "name": "Akseli Palen",
+    "email": "akseli.palen@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/axelpale/timelapse-diff.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "genversion": "^2.2.0",
+    "standard": "*"
+  },
+  "dependencies": {
+    "sharp": "^0.23.2"
+  }
+}
