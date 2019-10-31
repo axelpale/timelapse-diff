@@ -26,6 +26,7 @@
     "standard": "*"
   },
   "dependencies": {
+    "async": "^3.1.0",
     "sharp": "^0.23.2"
   }
 }
