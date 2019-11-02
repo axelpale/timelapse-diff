@@ -1,6 +1,6 @@
 {
   "name": "timelapse-diff",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Find bad frames in timelapse photos",
   "keywords": [
     "timelapse"
